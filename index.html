@@ -5,6 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .card {
+        width: 500px;
+        background-color: rgb(188, 241, 224);
+        display: grid;
+        grid-template-columns: repeat (3, auto);
+        grid-template-rows: repeat (3, auto);
+        grid-template-areas: "h h
+        p t
+        c c";
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="card">
+      <div class="heading">
+        <h1>Natalie Zablotska</h1>
+      </div>
+      <div class="photo">
+        <img
+          src="291628182_5343609169050856_8696127131316336191_n.jpg"
+          alt="photo of Natalie"
+        />
+      </div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quo
+          provident repudiandae quia at quas modi, vel facilis cupiditate natus,
+          necessitatibus labore libero deserunt quam non nisi eos odio id.
+        </p>
+      </div>
+      <div class="contacts">
+        <ul>
+          <li>Linkedin: <a href="">Link</a></li>
+          <li>Mobile phone:</li>
+          <li>Email:</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
